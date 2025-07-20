@@ -245,13 +245,20 @@
 
 
   <!-- CONTACT -->
-<form class="contact-form" name="contact" method="POST" netlify action="/thanks.html">
-      
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h3 class="section-title">📬 Contact</h3>
+    <p class="contact-subtitle">
+      Have a question or want to work together? Send me a message and I’ll get back to you soon.
+    </p>
+
+     <form class="contact-form" name="contact" method="POST" netlify>
+      <!-- Campo necessário para Netlify Forms -->
       <input type="hidden" name="form-name" value="contact">
       
-   
+      <!-- Configuração alternativa para FormSubmit (como fallback) -->
       <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="https://kennedyanalytics.netlify.app/thanks.html">
+      <input type="hidden" name="_next" value="https://kennedyanalytics.netlify.app/thanks.html?ref=formsubmit">
 
       <div class="form-group">
         <label for="name">Name</label>
