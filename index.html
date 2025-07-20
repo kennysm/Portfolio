@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ken | Data Analyst</title>
+  <link rel="stylesheet" href="./Style/style.css" />
+  <script defer src="./Scripts/script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- HEADER -->
+ <header class="header">
+  <div class="container header-flex">
+    <a href="/index.html" class="logo">
+      <img src="assets/img/logo.png" alt="Ken Logo" style="height: 40px;">
+    </a>
+    <nav class="navbar" id="navbar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+  </div>
+</header>
+
+
+  <!-- HERO -->
+  <section id="hero" class="hero-section" aria-label="Kennedy's personal introduction">
+    <div class="hero-particles">
+  <!-- Power BI Logo -->
+  <svg class="particle" style="top: 10%; left: 15%; width: 40px;" viewBox="0 0 24 24">
+    <path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm-8 14H8v-6h3v6zm5-2h-3v-4h3v4z" />
+  </svg>
+
+  <!-- Gráfico de barras -->
+  <svg class="particle" style="top: 30%; left: 75%; width: 30px;" viewBox="0 0 24 24">
+    <path d="M3 3v18h18v-2H5V3H3zm4 14h2V9H7v8zm4 0h2V5h-2v12zm4 0h2v-6h-2v6z" />
+  </svg>
+
+  <!-- SQL Code icon -->
+  <svg class="particle" style="top: 65%; left: 25%; width: 35px;" viewBox="0 0 24 24">
+    <path d="M4 5h16v2H4zm0 4h10v2H4zm0 4h16v2H4zm0 4h10v2H4z" />
+  </svg>
+</div>
+
+  <div class="container">
+    
+    <h1 class="fade-in" aria-label="Hi, I'm Kennedy">
+      Hi, I'm <span style="color:#a259ff;">Kennedy</span>
+    </h1>
+
+    <p id="typing-text"></p>
+
+    <p class="hero-subtitle fade-in" aria-label="Mission statement">
+      Simplifying Data. Empowering Action.
+    </p>
+
+    <div style="margin-top: 30px;" class="fade-in">
+      <a href="#projects" class="btn" aria-label="View Projects">View Projects</a>
+    </div>
+
+    <!-- Scroll down icon -->
+    <a href="#projects" class="scroll-down" aria-label="Scroll to Projects">↓</a>
+  </div>
+</section>
+
+
+      
+  <!-- ABOUT -->
+<section id="about" class="about-section">
+  <div class="container about-content">
+    <img src="assets/img/ken.jpg" alt="Ken's photo" class="profile-pic" />
+
+    <div class="about-text">
+      <h3>About Me</h3>
+      <p>
+        I’m a data analyst passionate about transforming information into
+        <strong class="highlight">strategic decisions</strong>. I specialize in
+        <strong class="highlight">SQL</strong>, <strong class="highlight">Power BI</strong>, and
+        <strong class="highlight">Python</strong> using data storytelling and smart visuals to communicate clearly.
+            My mission is to help teams make better decisions fast, accurate, and based on what really matters.
+      </p>
+
+      <!-- Mini cards de destaque -->
+      <div class="highlights">
+        <div class="highlight-card">
+          <span>2+ years</span>
+          <p>Working with data</p>
+        </div>
+        <div class="highlight-card">
+          <span>5+ dashboards</span>
+          <p>Delivered with Power BI</p>
+        </div>
+        <div class="highlight-card">
+          <span>100k+ rows</span>
+          <p>Analyzed and optimized</p>
+        </div>
+      </div>
+
+      <!-- Botão e redes sociais -->
+      <a href="assets/Resume/Data Analyst - Kennedy Mota CV.pdf"  target="_blank" class="btn" download>Download CV</a>
+
+      <div class="social-links">
+        <a href="https://github.com/seuuser" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/kennedy-mota-dataanalyst/" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- PROJECTS -->
+
+ <section id="projects" class="projects-section">
+  <h2 class="section-title">Projects</h2>
+  <div class="projects-grid">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="./assets/img/example.png" alt="Financial Dashboard Preview" class="project-cover" />
+      <div class="card-content">
+        <span class="project-type">Dashboard</span> <!-- 🌌 Categoria -->
+        <h3>Financial Dashboard</h3>
+        <p>Revenue and expense analysis with KPIs using Power BI.</p>
+        <a href="./projects/Projeto1.html" class="project-link">View Details</a>
+
+        <!-- 🏷️ Tech badges -->
+        <div class="tech-badges">
+          <img src="./assets/icons/icons8-power-bi.svg" alt="Power BI" />
+          <img src="./assets/icons/sql.svg" alt="SQL" />
+          <img src="./assets/icons/icons8-figma.svg" alt="SQL" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="./assets/img/example.png" alt="Sales Analysis Preview" class="project-cover" />
+      <div class="card-content">
+        <span class="project-type">BI Analysis</span>
+        <h3>Sales Analysis</h3>
+        <p>Customer segmentation using SQL and BI visualizations.</p>
+        <a href="./projects/Projeto1.html" class="project-link">View Details</a>
+
+        <div class="tech-badges">
+          <img src="./assets/icons/icons8-power-bi.svg" alt="Power BI" />
+          <img src="./assets/icons/sql.svg" alt="SQL" />
+          <img src="./assets/icons/icons8-figma.svg" alt="SQL" />
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- SKILLS -->
+<section class="skills-section" id="skills">
+  <div class="container">
+    <h2 class="section-title">
+      <!-- Ícone do título -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#fff" viewBox="0 0 24 24" style="margin-right: 10px; vertical-align: middle;">
+        <path d="M4 6h16M4 12h16M4 18h16" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      Technical Skills
+    </h2>
+    <p class="section-subtitle">Stack I use to build clean, scalable solutions.</p>
+
+    <!-- Power BI -->
+    <div class="skill">
+      <div class="skill-header">
+        <span class="skill-icon tooltip-icon">
+          <svg width="20" height="20" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+            <rect width="48" height="48" rx="8" fill="#F2C811"/>
+            <path d="M14 30V22H18V30H14ZM22 30V14H26V30H22ZM30 30V18H34V30H30Z" fill="black"/>
+          </svg>
+          Power BI
+          <span class="tooltip-text">Used to build dashboards and visual analytics</span>
+        </span>
+        <span class="level">Advanced</span>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-fill" style="--target-width: 90%" data-width="90%"></div>
+      </div>
+    </div>
+
+    <!-- SQL -->
+    <div class="skill">
+      <div class="skill-header">
+        <span class="skill-icon tooltip-icon">
+          <img src="../assets/icons/Sql.svg" alt="SQL" />
+          SQL
+          <span class="tooltip-text">Strong querying skills and data manipulation</span>
+        </span>
+        <span class="level">Intermediate-Advanced</span>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-fill" style="--target-width: 80%" data-width="80%"></div>
+      </div>
+    </div>
+
+    <!-- Python -->
+    <div class="skill">
+      <div class="skill-header">
+        <span class="skill-icon tooltip-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+          Python
+          <span class="tooltip-text">Automation, data processing and scripting</span>
+        </span>
+        <span class="level">Intermediate</span>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-fill" style="--target-width: 70%" data-width="70%"></div>
+      </div>
+    </div>
+
+    <!-- Figma -->
+    <div class="skill">
+      <div class="skill-header">
+        <span class="skill-icon tooltip-icon">
+          <img src="./assets/icons/icons8-figma.svg" alt="Figma" />
+          Figma
+          <span class="tooltip-text">Wireframes and prototypes for visual dashboards</span>
+        </span>
+        <span class="level">Intermediate</span>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-fill" style="--target-width: 65%" data-width="65%"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- CONTACT -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h3 class="section-title">📬 Contact</h3>
+    <p class="contact-subtitle">
+      Have a question or want to work together? Send me a message and I’ll get back to you soon.
+    </p>
+
+    <form class="contact-form" action="https://formsubmit.co/kennedysantosmota24@gmail.com" method="POST">
+      <!-- Configurações do FormSubmit -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="John Doe" required autocomplete="name">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email">
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Let me know how I can help..." rows="5" required></textarea>
+      </div>
+
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </div>
+</section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+  <div class="container">
+    <p class="footer-text">
+      &copy; 2025 <span>Ken</span>. Designed & built by me<span class="emoji">⚡</span>
+    </p>
+  </div>
+</footer>
+<button onclick="scrollToTop()" id="backToTop" title="Back to top">↑</button>
+</body>
+</html>
